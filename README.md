@@ -72,5 +72,38 @@ Preferences -> Settings -> More -> Syntax Specific -> User
 
 ```
 
+# Go How to write go code  https://golang.org/doc/code.html
+workspace
+* src
+* pkg
+* bin
+
+```
+bin/
+	hello
+pkg/
+	linux_amd64/
+		github.com/csk6124/..
+src/
+	github.com/csk6124/juneGoHome/
+		.git
+		/hello
+			hello.go
+		/stringutil
+			reverse.go
+			reverse_test.go
+```
+
+
+# How to build and install go package
+cd $GOPATH
+go install github.com/csk6124/juneGoHome/hello
+bin/hello or hello
+
+### util build
+go build github.com/csk6124/juneGoHome/stringutil
+
+
+
 
 
