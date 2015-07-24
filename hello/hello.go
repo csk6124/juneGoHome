@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
  	"encoding/json"
-	"github.com/csk6124/stringutil"
+	"github.com/csk6124/juneGoHome/stringutil"
 )
 
 type Message struct {
