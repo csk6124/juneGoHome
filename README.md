@@ -96,12 +96,16 @@ src/
 
 
 # How to build and install go package
+```
 cd $GOPATH
 go install github.com/csk6124/juneGoHome/hello
 bin/hello or hello
+```
 
 ### util build
+```
 go build github.com/csk6124/juneGoHome/stringutil
+```
 
 
 
