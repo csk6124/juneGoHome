@@ -108,6 +108,26 @@ go build github.com/csk6124/juneGoHome/stringutil
 ```
 
 
+# Go syntest
+
+### Go type
+private는 소문자
+public은 대문자로 한다.
+
+private 예제)
+type message struct {
+    Name string
+    Body string
+    Time int64
+}
+
+public 예제)
+type Message struct {
+    Name string
+    Body string
+    Time int64
+}
+
 
 
 
