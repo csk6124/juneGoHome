@@ -8,3 +8,7 @@ func Reverse(s string) string {
 	return string(r)
 }
 
+func LoopTest() string {
+	var r string = "goood"
+	return r
+}
